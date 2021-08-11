@@ -1,0 +1,135 @@
+
+/* section color */
+.coloured#title, .coloured#cta{
+    background-color: #ff4c68;
+}
+.coloured{
+    background-color: #f57373;
+}
+.white{
+    background-color: #fff;
+}
+#features, #testimonials, #cta, #footer, #press, #pricing{
+    text-align: center;
+}
+h3, .h3-features{
+    color: #000;
+}
+em{
+    color: #fff;
+}
+/* section color and alignment */
+/* padding and margin refactor */
+.features-row, .carousel-item{
+    padding: 7% 15%;
+}
+/* padding and margin refactor */
+p{
+    font-family: 'Ubuntu';
+}
+h1, h2, h3, h4, h5, h6, .features-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900 !important;
+    font-size: 3rem;
+    line-height: 1.5 !important;
+    color: #fff;
+}
+.container{
+    padding: 3% 10% 7% !important;
+}
+/* Navigation Bar */
+.navbar{
+    padding: 0 0 4.5rem !important;
+}
+.navbar-brand{
+    font-family: 'Ubuntu' !important;
+    font-size: 2.5rem !important;
+    font-weight: bold !important;
+}
+.nav-item{
+    padding: 0 18px !important;
+    font-family: 'Montserrat' !important;
+    font-weight: 300 !important;
+}
+/* donwload buttons */
+.Download-button{
+    margin: 8% 3% 5% 0 !important; 
+}
+/* title image */
+/* icons */
+.fa-check-circle, .fa-bullseye, .fa-heart{
+    color: #f57373;
+    margin-bottom: 1rem;
+}
+.fa-check-circle:hover, .fa-bullseye:hover, .fa-heart:hover{
+    color: #ff4c68;
+}
+.iphone{
+    width: 55%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+.iphone-container{
+    position: relative;
+}
+/* section features */
+#features{
+    position: relative;
+}
+.ini-col{
+    padding: 30px;
+}
+/* section testimonial */
+.testimonial-image{
+    width: 20%;
+    border-radius: 100%;
+    padding: 20px;
+}
+/* section press */
+#press{
+    padding-bottom: 5%;
+}
+.press-logo{
+    width: 12%;
+    margin: 20px 30px 50px;
+}
+/* section pricing */
+#pricing{
+    padding: 100px;
+}
+.pricing-row{
+    padding-top: 30px;
+}
+.pricing-h2{
+    color: black;
+}
+.pricing-buttons{
+    width: 100% !important;
+}
+/* media query for title section */
+@media (max-width : 1028px){
+    .row-title{
+        text-align: center;
+    }
+    .iphone{
+        position: static;
+        transform: rotate(0);
+    }
+}
+/* cta and footer section */
+#cta{
+    padding: 120px;
+}
+#footer{
+    padding: 50px;
+}
+.footer-download-button{
+    margin: 35px 10px 0px;
+}
+.icon-cta{
+    padding: 10px;
+}
+.h3-cta{
+    font-size: 2.5rem;
+}
